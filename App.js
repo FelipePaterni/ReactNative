@@ -3,9 +3,24 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Template que sera usado a outros projetos</Text>
-      <StatusBar style="auto" />
+
+
+    <View style={{ backgroundColor: "#000000", flex: 1 }}>
+
+      <View style={{ flex: 1, backgroundColor: 'yellow' }}>
+
+      </View>
+    
+      <View style={{ flex: 2, backgroundColor: 'red' }}>
+
+      </View>
+
+      <View style={{ flex: 3, backgroundColor: 'green' }}>
+
+      </View>
+
+
+
     </View>
   );
 }
